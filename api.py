@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return {"message": "hello!"}
+    return {"message": "hello 2!"}
 
 @app.route("/api", methods=["POST"])
 def sentiment():
